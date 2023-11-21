@@ -1,0 +1,21 @@
+#$schema=https://squidfunk.github.io/mkdocs-material/schema.json
+$schema: https://squidfunk.github.io/mkdocs-material/schema.json
+site_name: Modweaver Docs
+theme:
+    name: material
+    palette:
+      scheme: slate
+      primary: cyan
+      accent: yellow
+    font:
+      text: JetBrains Mono
+      code: JetBrains Mono
+    features:
+      - navigation.instant
+      - navigation.instant.progress
+      - navigation.tracking
+      - navigation.tabs
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
