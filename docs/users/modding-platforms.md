@@ -19,17 +19,19 @@ However, there are more steps required to get modding working, due to the way we
 2. Make sure you have run the game at least once in Proton
 
 3. Run this command (replacing `{STEAM_DIR}` with your steam directory. This is the folder that'll contain `steamapps`, e.g. `/home/$USER/.local/share/Steam`.) in a terminal to open `winecfg` in the Proton prefix
+   
 !!! info
-    It will show quite a lot of errors when launching `winecfg`, but don't worry
+       It will show quite a lot of errors when launching `winecfg`, but don't worry
+
 !!! warning
-    Before running the below command, read over it and make sure you understand it. Never blindly copy commands into your terminal!
+       Before running the below command, read over it and make sure you understand it. Never blindly copy commands into your terminal!
 ```shell
 WINEPREFIX={STEAM_DIR}/steamapps/compatdata/1329500/pfx winecfg
 ```
 This command runs `winecfg` in your prefix for SpiderHeck.
 
-4. Click on the Libraries tab, then add `winhttp`. Make sure it says `(native, built-in)`
+&nbsp;4. Click on the Libraries tab, then add `winhttp`. Make sure it says `(native, built-in)`
 
 ![screenshot of winecfg configuration](../winecfg.png)
 
-5. Modweaver should work now! 
+&nbsp;5. Modweaver should work now! 

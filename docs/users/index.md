@@ -1,4 +1,4 @@
-# Users
+# Users:Index
 This is the Users section. 
 You can see a list of the pages on the left. 
 This section documents installing and playing with mods.

@@ -1,6 +1,8 @@
 #$schema=https://squidfunk.github.io/mkdocs-material/schema.json
 $schema: https://squidfunk.github.io/mkdocs-material/schema.json
 site_name: Modweaver Docs
+site_url: https://docs.modweaver.org
+repo_url: https://github.com/modweaver/docs
 theme:
     name: material
     palette:
@@ -15,7 +17,25 @@ theme:
       - navigation.instant.progress
       - navigation.tracking
       - navigation.tabs
+      - navigation.indexes
+      - navigation.top
+      - navigation.footer
+      - toc.follow
 markdown_extensions:
   - admonition
   - pymdownx.details
   - pymdownx.superfences
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.keys
+  - pymdownx.smartsymbols
+  - pymdownx.snippets
+  - pymdownx.tasklist:
+      custom_checkbox: true
+plugins:
+  - social:
+      cards_layout_options:
+        font_family: JetBrains Mono
