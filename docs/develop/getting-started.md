@@ -15,7 +15,7 @@ Here you'll get started making mods! First, make sure you meet all the [Prerequi
 
 ---
 
-First, you'll want to clone [the template repo](https://github.com/modweaver/template.git)
+First, you'll want to clone [the template repo](https://github.com/modweaver/modweaver-template.git)
 
 You can do this through the Git CLI:
 
